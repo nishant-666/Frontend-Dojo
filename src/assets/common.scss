@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+
+.auth-card {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: -10px 12px 9px -8px rgba(28, 28, 28, 1);
+  -moz-box-shadow: -10px 12px 9px -8px rgba(28, 28, 28, 1);
+  box-shadow: -10px 12px 9px -8px rgba(28, 28, 28, 1);
+}
+
+.heading {
+  position: relative;
+  top: -80px;
+  text-align: center;
+}
+
+.heading p {
+  margin-top: -10px;
+}
+
+.auth-card p {
+  color: black;
+  font-family: Poppins;
+  font-size: 13px;
+}
+
+.basic-input {
+  font-family: Noto Sans !important;
+}
+
+.auth-card h1 {
+  color: black;
+  font-family: Noto Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.auth-btn {
+  display: flex;
+  gap: 10px;
+  margin-top: -20px;
+}
+
+.button {
+  margin-top: 20px !important;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.dojo {
+  color: #1976d2;
+  font-family: Noto Sans;
+}
+
+.divider {
+  background-color: rgb(147, 147, 147) !important;
+}
+
+.login-body {
+  position: relative;
+  top: -70px;
+}
